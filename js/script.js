@@ -1,4 +1,5 @@
-const text = 'Smashing the UX';
+// const text = 'Smashing the UX';
+const text = prompt('Please, insert the text: ');
 const element = document.querySelector('#wrapper');
 
 const animateText = (text) => {
